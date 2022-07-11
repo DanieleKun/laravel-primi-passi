@@ -12,10 +12,15 @@
     </section>
 
     <style>
+        body{
+            height: 100vh;
+            background-color: #23272a;
+        }
         h1{
             text-align: center;
             padding-top: 100px;
             font-size: 4rem;
+            color: white;
         }
     </style>
 </body>
