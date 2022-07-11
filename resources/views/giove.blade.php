@@ -10,20 +10,30 @@
 
 <body>
     <section>
+    <img src="{{URL::asset('/img/jupiter.png')}}" alt="">
         <h1>Se sommiamo la massa di tutti i pianeti del Sistema Solare, a Giove ne spetta il 71%</h1>
     </section>
 
     <style>
-        body {
-            height: 100vh;
+        body{
             background-color: #23272a;
         }
-
-        h1 {
+        h1{
             text-align: center;
-            padding-top: 100px;
             font-size: 4rem;
             color: white;
+        }
+
+        section{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 50px;
+
+        }
+
+        img{
+            width: 350px;
         }
     </style>
 </body>
