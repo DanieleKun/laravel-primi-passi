@@ -7,6 +7,15 @@
     <title>Laravel!</title>
 </head>
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="{{route('/nettuno')}}">Nettuno</a></li>
+                <li><a href="{{route('/saturno')}}">Saturno</a></li>
+                <li><a href="{{route('/giove')}}">Giove</a></li>
+            </ul>
+        </nav>
+    </header>
     <main>
         <section>
             <h1>Hello world!</h1>
@@ -14,11 +23,29 @@
     </main>
     
     <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-        section{
+        nav ul{
             display: flex;
-            align-content: center;
             justify-content: center;
+        }
+
+        a{
+            text-decoration: none;
+        }
+
+        li{
+            list-style-type: none;
+            margin: 10px 10px;
+            font-size: 2rem;
+        }
+        section{
+            text-align: center;
+            padding-top: 50px;
         }
         h1{
             font-size: 5rem;
