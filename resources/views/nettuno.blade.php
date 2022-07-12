@@ -19,16 +19,13 @@
             background-color: #23272a;
         }
         h1{
-            text-align: center;
             font-size: 4rem;
             color: white;
         }
 
         section{
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            margin-top: 50px;
+            text-align: center;
+            margin-top: 80px
 
         }
 
